@@ -1,0 +1,31 @@
+Windows standalone 64bit Executable program, OPiPcap.exe, is in dist folder.
+You can move it to Desktop for example and execute without any dependency.
+It is developed with Python/Tkinter and src is OPiPcapGUI.py in this folder.
+
+Below is how to use this program with OPi-PCap device.
+
+1. Setup.
+   PC gets IP address from OPi-PCap.
+   OPi-PCap is DHCP server and PC is DHCP client.
+
+   OPi-Pcap <--- Ethernet Cable ---> PC LAN port.
+
+2. Start OPi-Pcap program
+   Wait until Status shows "Device Ready"
+
+3. If you don't know target AP's channel, start site Survey.
+   It runs for 5s and shows all APs in the area.
+
+4. Now you know target AP's channel, set channel
+   When you select channel, OPi-PCap automatically configures Channel.
+
+5. Click Start Wireshark
+   Once you're done, you can stop Wireshark from Wireshark itself or from OPi-PCap.
+   When Wireshark is running, "Start" button becomes "Stop" button.
+
+6. (Optional) You can apply filter(AP MAC address) to reduce capture traffic.
+   Without filter, OPi-PCap will capture all traffic.
+
+7. Always shutdown OPi-Pcap gracefully to pretect file system.
+
+For any questions, please contact inzoolee@hotmail.com

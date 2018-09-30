@@ -1,0 +1,23 @@
+
+config wifi-device 'mt7628'
+	option type 'mt7628'
+	option vendor 'ralink'
+	option band '2.4G'
+	option channel 'auto'
+	option autoch_skip '12;13;'
+	option wifimode '9'
+	option bw '1'
+	option country 'CN'
+	option region '1'
+	option ht_txstream '2'
+	option ht_rxstream '2'
+	option hwmode '11ng'
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option channel '11'
+	option hwmode '11g'
+	option path 'platform/101c0000.ehci/usb1/1-1/1-1:1.0'
+	option htmode 'HT20'
+	option disabled '1'
+

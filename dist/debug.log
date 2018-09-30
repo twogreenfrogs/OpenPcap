@@ -1,0 +1,2816 @@
+2018-09-29 19:47:09,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:10,049[167] Connection status changed: True
+2018-09-29 19:47:10,079[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: True
+2018-09-29 19:47:10,079[589] device connected. getting wifi info and setting initial channel
+2018-09-29 19:47:10,095[458] received cmd: WIFI_INFO
+2018-09-29 19:47:10,095[479] C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:47:10,095[574] send cmd to ExeCmdThread: cmd:WIFI_INFO, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:47:10,095[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:47:10,984[211] cmd: WIFI_INFO, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:47:10,984[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:47:11,141[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:47:11,171[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:12,140[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:47:12,296[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:13,138[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:47:13,418[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:14,167[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:47:14,494[213] exec result: True, 802.11 bgn, 2.4G
+, 
+2018-09-29 19:47:14,542[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:15,197[610] CMD_TYPE: WIFI_INFO, success: True, stdout: 802.11 bgn, 2.4G
+, stderr: 
+2018-09-29 19:47:15,197[625] wifi interface: Single band
+2018-09-29 19:47:15,197[458] received cmd: MONITOR_MODE
+2018-09-29 19:47:15,197[475] Chaning WiFi channel to 1
+2018-09-29 19:47:15,197[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:15,197[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:15,509[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:15,509[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:15,650[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:16,226[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:16,742[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:17,256[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:17,865[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:18,286[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:18,753[213] exec result: True, , 
+2018-09-29 19:47:18,971[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:19,315[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:47:20,095[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:21,219[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:22,342[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:23,464[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:24,556[458] received cmd: SITE_SURVEY
+2018-09-29 19:47:24,556[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:47:24,556[574] send cmd to ExeCmdThread: cmd:SITE_SURVEY, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 5
+2018-09-29 19:47:24,588[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:24,838[211] cmd: SITE_SURVEY, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 5
+2018-09-29 19:47:24,838[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 5
+2018-09-29 19:47:25,726[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:26,849[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:27,973[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:29,096[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:30,220[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:31,233[213] exec result: True,  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=41/70  Signal level=-69 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=37/70  Signal level=-73 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=25/70  Signal level=-85 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=29/70  Signal level=-81 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+, 
+2018-09-29 19:47:31,342[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:31,671[610] CMD_TYPE: SITE_SURVEY, success: True, stdout:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=41/70  Signal level=-69 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=37/70  Signal level=-73 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=25/70  Signal level=-85 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=29/70  Signal level=-81 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+, stderr: 
+2018-09-29 19:47:31,671[651] got site survey result:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=41/70  Signal level=-69 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=37/70  Signal level=-73 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=25/70  Signal level=-85 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=29/70  Signal level=-81 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+2018-09-29 19:47:31,671[458] received cmd: MONITOR_MODE
+2018-09-29 19:47:31,671[475] Chaning WiFi channel to 1
+2018-09-29 19:47:31,671[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:31,671[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:32,247[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:32,247[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:47:32,466[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:32,684[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:33,573[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:33,698[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:34,697[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:34,727[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:35,585[213] exec result: True, , 
+2018-09-29 19:47:35,757[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:47:35,835[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:36,974[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:38,098[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:39,220[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:40,332[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:41,424[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:42,536[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:43,660[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:44,782[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:45,937[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:47,092[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:48,214[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:49,338[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:50,476[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:51,599[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:52,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:53,861[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:54,984[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:55,608[458] received cmd: MONITOR_MODE
+2018-09-29 19:47:55,608[475] Chaning WiFi channel to 11
+2018-09-29 19:47:55,608[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 11
+2018-09-29 19:47:55,842[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 11
+2018-09-29 19:47:55,842[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 11
+2018-09-29 19:47:56,124[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:56,296[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:57,263[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:57,325[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:58,355[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:47:58,385[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:47:59,118[213] exec result: True, , 
+2018-09-29 19:47:59,384[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:47:59,509[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:00,648[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:01,288[458] received cmd: MONITOR_MODE
+2018-09-29 19:48:01,288[475] Chaning WiFi channel to 14
+2018-09-29 19:48:01,288[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 19:48:01,411[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:01,770[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:02,161[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 19:48:02,161[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 19:48:02,441[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:02,894[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:03,471[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:04,017[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:04,500[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:05,141[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:05,375[117] execute_cmd failed. stdout: , stderr: command failed: Invalid argument (-22)
+Error in setting Frequency
+
+2018-09-29 19:48:05,375[213] exec result: False, , command failed: Invalid argument (-22)
+Error in setting Frequency
+
+2018-09-29 19:48:05,530[610] CMD_TYPE: MONITOR_MODE, success: False, stdout: , stderr: command failed: Invalid argument (-22)
+Error in setting Frequency
+
+2018-09-29 19:48:05,530[660] Error for wireless setting request: 
+2018-09-29 19:48:06,256[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:06,907[458] received cmd: MONITOR_MODE
+2018-09-29 19:48:06,923[475] Chaning WiFi channel to 1
+2018-09-29 19:48:06,923[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:48:06,923[672] Frequency setting failed...
+2018-09-29 19:48:06,923[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:07,391[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:48:07,391[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:48:07,407[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:07,953[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:08,513[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:08,982[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:09,653[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:10,012[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:48:10,635[213] exec result: True, , 
+2018-09-29 19:48:10,760[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:11,042[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:48:11,884[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:12,382[458] received cmd: START_WIRESHARK
+2018-09-29 19:48:12,382[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:48:12,382[524] filter option: , filter expression: 
+2018-09-29 19:48:12,382[574] send cmd to ExeCmdThread: cmd:START_WIRESHARK, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:48:12,664[211] cmd: START_WIRESHARK, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:48:12,664[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:48:13,006[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:13,085[183] Wireshark running status changed: True
+2018-09-29 19:48:13,101[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: True
+2018-09-29 19:48:14,098[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:15,221[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:16,313[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:17,453[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:18,575[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:19,684[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:20,806[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:21,930[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:23,069[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:24,170[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:25,276[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:26,415[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:27,539[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:28,647[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:29,769[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:30,878[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:31,845[117] execute_cmd failed. stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:48:31,845[213] exec result: False, , Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:48:32,000[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:32,125[183] Wireshark running status changed: False
+2018-09-29 19:48:32,640[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: False
+2018-09-29 19:48:32,640[610] CMD_TYPE: START_WIRESHARK, success: False, stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:48:33,140[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:34,278[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:34,325[458] received cmd: STOP_DEVICE
+2018-09-29 19:48:34,325[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:48:35,308[574] send cmd to ExeCmdThread: cmd:STOP_DEVICE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 19:48:35,401[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:35,901[211] cmd: STOP_DEVICE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 19:48:35,901[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 19:48:36,525[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:37,631[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:38,756[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:39,098[213] exec result: True, , 
+2018-09-29 19:48:39,815[610] CMD_TYPE: STOP_DEVICE, success: True, stdout: , stderr: 
+2018-09-29 19:48:39,878[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:41,017[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:42,640[129] ping failed
+2018-09-29 19:48:42,640[136] Device not connected
+2018-09-29 19:48:42,640[167] Connection status changed: False
+2018-09-29 19:48:42,904[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: False
+2018-09-29 19:48:42,904[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:48:42,904[733] Open-Pcap shutdown successful!!!
+2018-09-29 19:48:43,693[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:45,648[129] ping failed
+2018-09-29 19:48:45,648[136] Device not connected
+2018-09-29 19:48:46,710[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:48,644[129] ping failed
+2018-09-29 19:48:48,644[136] Device not connected
+2018-09-29 19:48:49,688[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:51,638[129] ping failed
+2018-09-29 19:48:51,638[136] Device not connected
+2018-09-29 19:48:52,700[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:54,650[129] ping failed
+2018-09-29 19:48:54,650[136] Device not connected
+2018-09-29 19:48:55,710[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:48:57,644[129] ping failed
+2018-09-29 19:48:57,644[136] Device not connected
+2018-09-29 19:48:58,706[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:00,651[129] ping failed
+2018-09-29 19:49:00,651[136] Device not connected
+2018-09-29 19:49:01,701[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:03,651[129] ping failed
+2018-09-29 19:49:03,651[136] Device not connected
+2018-09-29 19:49:04,197[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:04,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:05,226[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:06,256[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:06,647[129] ping failed
+2018-09-29 19:49:06,647[136] Device not connected
+2018-09-29 19:49:07,286[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:07,707[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:08,315[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:09,345[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:09,641[129] ping failed
+2018-09-29 19:49:09,641[136] Device not connected
+2018-09-29 19:49:10,375[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:10,703[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:11,404[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:12,434[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:12,653[129] ping failed
+2018-09-29 19:49:12,653[136] Device not connected
+2018-09-29 19:49:13,463[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:13,729[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:14,493[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:15,523[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:15,648[129] ping failed
+2018-09-29 19:49:15,648[136] Device not connected
+2018-09-29 19:49:16,552[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:16,709[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:17,582[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:18,611[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:18,642[129] ping failed
+2018-09-29 19:49:18,642[136] Device not connected
+2018-09-29 19:49:19,641[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:19,703[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:20,671[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:21,638[129] ping failed
+2018-09-29 19:49:21,638[136] Device not connected
+2018-09-29 19:49:21,700[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:22,698[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:22,730[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:23,759[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:24,648[129] ping failed
+2018-09-29 19:49:24,648[136] Device not connected
+2018-09-29 19:49:24,789[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:25,710[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:25,819[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:26,848[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:27,644[129] ping failed
+2018-09-29 19:49:27,644[136] Device not connected
+2018-09-29 19:49:27,878[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:28,690[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:28,907[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:29,937[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:30,640[129] ping failed
+2018-09-29 19:49:30,640[136] Device not connected
+2018-09-29 19:49:30,967[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:31,700[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:31,996[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:33,026[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:33,651[129] ping failed
+2018-09-29 19:49:33,651[136] Device not connected
+2018-09-29 19:49:34,055[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:34,710[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:35,085[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:36,115[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:36,645[129] ping failed
+2018-09-29 19:49:36,645[136] Device not connected
+2018-09-29 19:49:37,144[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:37,707[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:38,174[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:39,203[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:39,641[129] ping failed
+2018-09-29 19:49:39,641[136] Device not connected
+2018-09-29 19:49:40,233[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:40,701[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:41,263[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:42,292[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:42,651[129] ping failed
+2018-09-29 19:49:42,651[136] Device not connected
+2018-09-29 19:49:43,322[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:43,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:44,351[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:45,381[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:45,647[129] ping failed
+2018-09-29 19:49:45,647[136] Device not connected
+2018-09-29 19:49:46,411[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:46,707[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:47,440[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:48,470[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:48,641[129] ping failed
+2018-09-29 19:49:48,641[136] Device not connected
+2018-09-29 19:49:49,500[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:49,687[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:50,529[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:51,559[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:51,653[129] ping failed
+2018-09-29 19:49:51,653[136] Device not connected
+2018-09-29 19:49:52,588[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:52,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:53,618[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:54,648[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:54,648[129] ping failed
+2018-09-29 19:49:54,648[136] Device not connected
+2018-09-29 19:49:55,677[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:55,724[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:56,707[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:57,674[129] ping failed
+2018-09-29 19:49:57,674[136] Device not connected
+2018-09-29 19:49:57,736[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:58,734[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:49:58,766[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:49:59,796[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:00,638[129] ping failed
+2018-09-29 19:50:00,638[136] Device not connected
+2018-09-29 19:50:00,825[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:01,698[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:01,855[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:02,884[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:03,648[129] ping failed
+2018-09-29 19:50:03,648[136] Device not connected
+2018-09-29 19:50:03,914[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:04,694[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:04,944[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:05,973[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:06,660[129] ping failed
+2018-09-29 19:50:06,660[136] Device not connected
+2018-09-29 19:50:07,003[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:07,704[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:08,032[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:09,062[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:09,640[129] ping failed
+2018-09-29 19:50:09,640[136] Device not connected
+2018-09-29 19:50:10,092[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:10,700[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:11,121[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:12,151[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:12,651[129] ping failed
+2018-09-29 19:50:12,651[136] Device not connected
+2018-09-29 19:50:13,180[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:13,710[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:14,210[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:15,240[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:15,677[129] ping failed
+2018-09-29 19:50:15,677[136] Device not connected
+2018-09-29 19:50:16,269[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:16,737[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:17,299[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:18,328[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:18,641[129] ping failed
+2018-09-29 19:50:18,641[136] Device not connected
+2018-09-29 19:50:19,358[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:19,701[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:20,388[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:21,417[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:21,651[129] ping failed
+2018-09-29 19:50:21,651[136] Device not connected
+2018-09-29 19:50:22,447[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:22,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:23,476[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:24,506[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:24,663[129] ping failed
+2018-09-29 19:50:24,663[136] Device not connected
+2018-09-29 19:50:25,536[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:25,707[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:26,565[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:27,595[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:27,673[129] ping failed
+2018-09-29 19:50:27,673[136] Device not connected
+2018-09-29 19:50:28,625[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:28,719[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:29,654[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:30,653[129] ping failed
+2018-09-29 19:50:30,653[136] Device not connected
+2018-09-29 19:50:30,684[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:31,713[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:31,729[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:32,743[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:33,648[129] ping failed
+2018-09-29 19:50:33,648[136] Device not connected
+2018-09-29 19:50:33,773[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:34,709[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:34,802[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:35,832[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:36,642[129] ping failed
+2018-09-29 19:50:36,642[136] Device not connected
+2018-09-29 19:50:36,861[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:37,703[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:37,891[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:38,921[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:39,654[129] ping failed
+2018-09-29 19:50:39,654[136] Device not connected
+2018-09-29 19:50:39,950[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:50:40,714[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:40,792[167] Connection status changed: True
+2018-09-29 19:50:40,980[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: True
+2018-09-29 19:50:40,980[589] device connected. getting wifi info and setting initial channel
+2018-09-29 19:50:40,980[458] received cmd: WIFI_INFO
+2018-09-29 19:50:40,980[479] C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:50:40,980[574] send cmd to ExeCmdThread: cmd:WIFI_INFO, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:50:40,980[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:50:41,759[211] cmd: WIFI_INFO, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:50:41,759[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:50:41,854[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:42,009[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:50:42,961[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:43,039[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:50:44,069[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:50:44,163[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:45,098[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:50:45,286[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:45,411[117] execute_cmd failed. stdout: 802.11 bgn, 2.4G/5G
+, stderr: WARNING - POTENTIAL SECURITY BREACH!
+The server's host key does not match the one PuTTY has
+cached in the registry. This means that either the
+server administrator has changed the host key, or you
+have actually connected to another computer pretending
+to be the server.
+The new rsa2 key fingerprint is:
+ssh-rsa 2048 94:0d:0b:f8:84:e0:44:f1:64:99:58:3c:85:7a:82:71
+If you were expecting this change and trust the new key,
+enter "y" to update PuTTY's cache and continue connecting.
+If you want to carry on connecting but without updating
+the cache, enter "n".
+If you want to abandon the connection completely, press
+Return to cancel. Pressing Return is the ONLY guaranteed
+safe choice.
+Update cached key? (y/n, Return cancels connection) 
+2018-09-29 19:50:45,411[213] exec result: False, 802.11 bgn, 2.4G/5G
+, WARNING - POTENTIAL SECURITY BREACH!
+The server's host key does not match the one PuTTY has
+cached in the registry. This means that either the
+server administrator has changed the host key, or you
+have actually connected to another computer pretending
+to be the server.
+The new rsa2 key fingerprint is:
+ssh-rsa 2048 94:0d:0b:f8:84:e0:44:f1:64:99:58:3c:85:7a:82:71
+If you were expecting this change and trust the new key,
+enter "y" to update PuTTY's cache and continue connecting.
+If you want to carry on connecting but without updating
+the cache, enter "n".
+If you want to abandon the connection completely, press
+Return to cancel. Pressing Return is the ONLY guaranteed
+safe choice.
+Update cached key? (y/n, Return cancels connection) 
+2018-09-29 19:50:46,128[610] CMD_TYPE: WIFI_INFO, success: False, stdout: 802.11 bgn, 2.4G/5G
+, stderr: WARNING - POTENTIAL SECURITY BREACH!
+The server's host key does not match the one PuTTY has
+cached in the registry. This means that either the
+server administrator has changed the host key, or you
+have actually connected to another computer pretending
+to be the server.
+The new rsa2 key fingerprint is:
+ssh-rsa 2048 94:0d:0b:f8:84:e0:44:f1:64:99:58:3c:85:7a:82:71
+If you were expecting this change and trust the new key,
+enter "y" to update PuTTY's cache and continue connecting.
+If you want to carry on connecting but without updating
+the cache, enter "n".
+If you want to abandon the connection completely, press
+Return to cancel. Pressing Return is the ONLY guaranteed
+safe choice.
+Update cached key? (y/n, Return cancels connection) 
+2018-09-29 19:50:46,128[616] wifi interface: Dual band
+2018-09-29 19:50:46,128[458] received cmd: MONITOR_MODE
+2018-09-29 19:50:46,128[475] Chaning WiFi channel to 1
+2018-09-29 19:50:46,128[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:46,128[458] received cmd: MONITOR_MODE
+2018-09-29 19:50:46,128[475] Chaning WiFi channel to 1
+2018-09-29 19:50:46,128[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:46,128[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:46,408[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:46,424[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:46,424[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:47,157[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:47,720[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:48,187[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:49,217[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:49,372[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:50,246[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:50,512[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:51,276[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:50:51,963[213] exec result: True, , 
+2018-09-29 19:50:52,305[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:50:52,461[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:52,976[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:52,976[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:50:53,601[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:54,723[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:55,846[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:55,971[213] exec result: True, , 
+2018-09-29 19:50:56,408[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:50:57,002[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:58,125[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:50:58,763[458] received cmd: SITE_SURVEY
+2018-09-29 19:50:58,763[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:50:58,763[574] send cmd to ExeCmdThread: cmd:SITE_SURVEY, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:50:59,013[211] cmd: SITE_SURVEY, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:50:59,013[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:50:59,232[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:00,355[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:01,479[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:02,601[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:03,740[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:04,864[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:05,986[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:07,125[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:08,249[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:09,371[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:10,496[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:11,650[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:12,789[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:13,911[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:15,051[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:16,190[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:17,328[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:18,467[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:19,605[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:20,744[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:21,868[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:22,990[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:23,786[213] exec result: True,  
+ SSID 01 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=50/70  Signal level=-60 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 04 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G Guest"
+, 
+2018-09-29 19:51:24,114[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:24,191[610] CMD_TYPE: SITE_SURVEY, success: True, stdout:  
+ SSID 01 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=50/70  Signal level=-60 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 04 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G Guest"
+, stderr: 
+2018-09-29 19:51:24,191[651] got site survey result:  
+ SSID 01 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=50/70  Signal level=-60 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 04 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 06 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"HPAPSP-2G Guest"
+2018-09-29 19:51:24,191[458] received cmd: MONITOR_MODE
+2018-09-29 19:51:24,191[475] Chaning WiFi channel to 1
+2018-09-29 19:51:24,191[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:51:24,191[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:51:24,801[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:51:24,801[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:51:25,221[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:51:25,253[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:26,252[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:51:26,391[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:27,280[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:51:27,515[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:27,671[213] exec result: True, , 
+2018-09-29 19:51:28,311[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:51:28,700[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:29,839[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:30,963[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:32,085[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:33,224[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:34,348[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:35,486[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:36,641[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:37,763[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:38,903[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:40,026[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:41,134[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:42,256[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:43,380[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:44,487[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:45,611[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:46,719[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:47,842[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:48,980[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:50,104[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:51,243[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:52,365[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:53,505[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:54,628[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:55,750[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:56,874[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:57,997[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:58,746[458] received cmd: MONITOR_MODE
+2018-09-29 19:51:58,746[475] Chaning WiFi channel to 6
+2018-09-29 19:51:58,746[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 6
+2018-09-29 19:51:59,105[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 6
+2018-09-29 19:51:59,105[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 6
+2018-09-29 19:51:59,121[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:51:59,776[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:52:00,227[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:00,805[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:52:01,351[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:01,835[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:52:02,069[213] exec result: True, , 
+2018-09-29 19:52:02,459[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:02,865[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:52:03,566[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:04,690[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:04,767[458] received cmd: START_WIRESHARK
+2018-09-29 19:52:04,767[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:52:04,767[524] filter option: , filter expression: 
+2018-09-29 19:52:04,767[574] send cmd to ExeCmdThread: cmd:START_WIRESHARK, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:52:05,111[211] cmd: START_WIRESHARK, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:52:05,111[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 19:52:05,798[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:05,907[183] Wireshark running status changed: True
+2018-09-29 19:52:05,953[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: True
+2018-09-29 19:52:06,921[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:08,043[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:09,167[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:10,305[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:11,414[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:12,536[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:13,660[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:14,782[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:15,921[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:17,013[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:18,105[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:19,229[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:20,351[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:21,490[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:22,614[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:23,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:24,875[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:25,983[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:27,107[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:28,230[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:29,368[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:30,476[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:31,615[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:32,737[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:33,861[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:34,984[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:36,108[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:37,246[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:38,384[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:39,523[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:40,647[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:41,770[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:42,878[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:44,000[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:45,140[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:46,309[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:47,433[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:48,540[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:49,664[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:50,786[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:51,926[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:53,081[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:54,203[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:55,326[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:56,450[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:57,588[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:58,711[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:52:59,835[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:00,973[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:02,096[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:03,220[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:04,342[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:05,482[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:06,605[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:07,743[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:07,947[117] execute_cmd failed. stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:53:07,947[213] exec result: False, , Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:53:08,757[610] CMD_TYPE: START_WIRESHARK, success: False, stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 19:53:08,882[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:08,976[183] Wireshark running status changed: False
+2018-09-29 19:53:09,786[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: False
+2018-09-29 19:53:09,990[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:11,112[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:12,236[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:13,375[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:14,513[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:15,624[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:16,763[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:17,869[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:19,009[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:20,151[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:21,275[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:22,414[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:23,536[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:24,676[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:25,815[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:26,937[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:28,076[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:29,214[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:30,338[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:31,461[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:32,601[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:33,723[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:34,846[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:35,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:37,092[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:38,200[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:39,323[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:40,493[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:41,632[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:42,772[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:43,894[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:45,017[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:46,157[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:47,296[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:48,427[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:49,539[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:50,677[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:51,816[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:52,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:54,109[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:55,239[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:56,362[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:57,500[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:58,654[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:53:59,778[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:00,917[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:02,055[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:03,178[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:04,286[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:05,401[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:06,522[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:07,628[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:08,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:09,891[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:11,015[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:12,138[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:13,260[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:14,384[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:15,506[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:16,631[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:17,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:18,877[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:20,000[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:21,138[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:22,262[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:23,357[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:24,496[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:25,615[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:26,740[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:27,846[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:28,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:30,095[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:31,216[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:32,354[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:33,477[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:34,601[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:35,723[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:36,894[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:38,032[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:39,171[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:40,295[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:41,417[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:42,556[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:43,696[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:44,819[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:45,941[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:47,081[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:48,220[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:49,358[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:50,466[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:51,619[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:52,759[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:53,898[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:55,036[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:56,160[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:57,282[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:58,405[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:54:59,545[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:00,684[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:01,822[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:02,946[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:04,069[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:05,191[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:06,346[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:07,470[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:08,592[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:09,732[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:10,855[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:12,009[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:13,132[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:14,302[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:15,441[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:16,579[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:17,703[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:18,811[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:19,934[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:21,058[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:22,180[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:23,303[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:24,427[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:25,549[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:26,688[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:27,812[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:28,936[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:30,073[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:31,197[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:32,321[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:33,444[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:34,582[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:35,721[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:36,859[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:37,999[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:39,154[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:40,308[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:41,447[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:42,585[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:43,723[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:44,832[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:45,954[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:47,094[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:48,263[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:49,387[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:50,509[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:51,648[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:52,772[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:53,911[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:55,033[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:56,141[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:57,250[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:58,372[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:55:59,496[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:00,618[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:01,757[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:02,881[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:04,003[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:05,641[129] ping failed
+2018-09-29 19:56:05,641[136] Device not connected
+2018-09-29 19:56:05,641[167] Connection status changed: False
+2018-09-29 19:56:06,641[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: False
+2018-09-29 19:56:06,641[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:56:06,703[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:07,670[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:56:08,653[129] ping failed
+2018-09-29 19:56:08,653[136] Device not connected
+2018-09-29 19:56:08,668[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:56:09,697[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 19:56:09,730[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:09,792[167] Connection status changed: True
+2018-09-29 19:56:10,727[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: True
+2018-09-29 19:56:10,727[589] device connected. getting wifi info and setting initial channel
+2018-09-29 19:56:10,727[458] received cmd: WIFI_INFO
+2018-09-29 19:56:10,727[479] C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:56:10,727[574] send cmd to ExeCmdThread: cmd:WIFI_INFO, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:56:10,727[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:56:10,836[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:11,382[211] cmd: WIFI_INFO, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:56:11,382[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 wifi_info.sh  < C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\say.yes
+2018-09-29 19:56:11,757[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:56:11,960[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:12,786[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:56:13,098[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:13,816[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:56:14,237[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:14,845[698] device not ready - conn: True, wifi_info: False, freq set: False
+2018-09-29 19:56:15,282[213] exec result: True, 802.11 bgn, 2.4G/5G
+, 
+2018-09-29 19:56:15,377[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:15,875[610] CMD_TYPE: WIFI_INFO, success: True, stdout: 802.11 bgn, 2.4G/5G
+, stderr: 
+2018-09-29 19:56:15,875[616] wifi interface: Dual band
+2018-09-29 19:56:15,875[458] received cmd: MONITOR_MODE
+2018-09-29 19:56:15,875[475] Chaning WiFi channel to 1
+2018-09-29 19:56:15,875[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:15,875[458] received cmd: MONITOR_MODE
+2018-09-29 19:56:15,875[475] Chaning WiFi channel to 1
+2018-09-29 19:56:15,875[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:15,875[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:16,296[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:16,296[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:16,500[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:16,905[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:17,622[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:17,934[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:18,778[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:18,964[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:19,308[213] exec result: True, , 
+2018-09-29 19:56:19,917[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:19,994[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:56:20,322[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:20,322[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:20,805[458] received cmd: SITE_SURVEY
+2018-09-29 19:56:20,805[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:56:20,805[574] send cmd to ExeCmdThread: cmd:SITE_SURVEY, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:56:21,023[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:22,163[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:23,302[213] exec result: True, , 
+2018-09-29 19:56:23,316[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:24,112[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:56:24,315[211] cmd: SITE_SURVEY, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:56:24,315[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:56:24,424[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:25,532[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:26,655[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:27,763[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:28,887[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:29,993[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:31,101[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:32,240[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:33,378[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:34,517[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:35,657[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:36,796[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:37,918[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:39,042[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:40,180[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:41,303[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:42,443[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:43,582[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:44,720[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:45,858[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:46,983[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:48,105[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:49,010[213] exec result: True,  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+, 
+2018-09-29 19:56:49,229[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:49,852[610] CMD_TYPE: SITE_SURVEY, success: True, stdout:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+, stderr: 
+2018-09-29 19:56:49,852[651] got site survey result:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: 44:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+2018-09-29 19:56:49,852[458] received cmd: MONITOR_MODE
+2018-09-29 19:56:49,852[475] Chaning WiFi channel to 1
+2018-09-29 19:56:49,852[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:49,852[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:50,025[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:50,025[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:56:50,351[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:50,867[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:51,490[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:51,897[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:56:52,614[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:52,878[213] exec result: True, , 
+2018-09-29 19:56:52,894[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:56:53,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:54,891[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:56,015[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:57,122[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:58,246[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:56:59,384[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:00,492[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:01,615[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:02,753[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:03,892[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:05,016[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:06,154[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:07,278[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:08,401[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:09,525[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:10,648[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:11,786[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:12,894[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:14,016[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:15,171[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:16,311[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:17,448[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:18,588[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:19,726[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:20,849[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:21,957[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:23,081[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:24,203[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:25,326[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:26,450[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:27,588[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:28,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:29,835[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:30,959[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:32,082[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:33,204[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:34,328[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:35,451[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:36,591[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:37,729[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:38,868[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:39,990[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:41,115[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:42,221[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:43,345[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:44,483[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:45,622[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:46,762[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:47,884[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:49,023[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:50,131[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:51,239[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:52,361[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:53,484[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:54,608[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:55,732[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:56,855[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:57,977[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:57:59,117[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:00,240[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:01,362[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:02,486[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:03,625[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:04,795[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:05,918[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:06,558[458] received cmd: SITE_SURVEY
+2018-09-29 19:58:06,558[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 19:58:06,558[574] send cmd to ExeCmdThread: cmd:SITE_SURVEY, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:58:06,901[211] cmd: SITE_SURVEY, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:58:06,901[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 19:58:07,072[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:08,180[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:09,335[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:10,473[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:11,596[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:12,766[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:13,905[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:15,045[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:16,151[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:17,276[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:18,414[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:19,552[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:20,691[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:21,831[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:22,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:24,108[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:25,246[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:26,385[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:27,525[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:28,648[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:29,770[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:30,894[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:31,628[213] exec result: True,  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G Guest"
+ 
+ SSID 10 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+, 
+2018-09-29 19:58:31,706[610] CMD_TYPE: SITE_SURVEY, success: True, stdout:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G Guest"
+ 
+ SSID 10 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+, stderr: 
+2018-09-29 19:58:31,706[651] got site survey result:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=46/70  Signal level=-64 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 05 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=22/70  Signal level=-88 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=36/70  Signal level=-74 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=30/70  Signal level=-80 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 46:D9:E7:FA:6C:FC
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HPAPSP-2G Guest"
+ 
+ SSID 10 - Address: D4:04:CD:7B:1D:F0
+           Channel:3
+           Frequency:2.422 GHz (Channel 3)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"A-Network"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: F8:18:97:8B:7B:E6
+           Channel:4
+           Frequency:2.427 GHz (Channel 4)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATT9XKP9gG"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 12 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: C0:FF:D4:87:3E:FF
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"HolbertWiFi"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+2018-09-29 19:58:31,706[458] received cmd: MONITOR_MODE
+2018-09-29 19:58:31,706[475] Chaning WiFi channel to 1
+2018-09-29 19:58:31,706[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:58:31,706[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:58:32,032[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:32,641[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:58:32,641[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 19:58:32,720[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:58:33,171[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:33,749[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:58:34,295[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:34,779[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 19:58:35,403[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:35,496[213] exec result: True, , 
+2018-09-29 19:58:35,808[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 19:58:36,526[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:37,648[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:38,756[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:39,895[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:41,033[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:42,173[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:43,312[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:44,450[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:45,589[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:46,727[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:47,882[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:49,022[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:50,144[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:51,267[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:52,407[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:53,529[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:54,668[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:55,808[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:56,946[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:58,085[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:58:59,207[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:00,346[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:01,486[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:02,608[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:03,732[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:04,855[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:05,993[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:07,118[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:08,240[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:09,364[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:10,486[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:11,609[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:12,733[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:13,841[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:14,963[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:16,134[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:17,273[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:18,395[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:19,519[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:20,642[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:21,766[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:22,920[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:24,043[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:25,167[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:26,321[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:27,444[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:28,582[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:29,737[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:30,875[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:32,015[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:33,138[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:34,276[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:35,400[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:36,523[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:37,647[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:38,769[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:39,878[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:41,000[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:42,124[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:43,246[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:44,369[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:45,509[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:46,617[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:47,756[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:48,878[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:50,017[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:51,141[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:52,279[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:53,417[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:54,542[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:55,680[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:56,803[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:57,911[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 19:59:59,049[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:00,173[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:01,312[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:02,450[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:03,589[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:04,729[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:05,851[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:06,974[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:08,082[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:09,190[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:10,312[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:11,451[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:12,591[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:13,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:14,836[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:15,960[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:17,068[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:18,190[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:19,315[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:20,437[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:21,545[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:22,668[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:23,792[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:24,914[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:26,023[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:27,130[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:28,253[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:29,391[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:30,515[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:31,670[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:32,792[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:33,915[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:35,055[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:36,163[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:37,286[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:38,424[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:39,548[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:40,671[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:41,793[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:42,917[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:44,040[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:45,164[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:46,286[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:47,410[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:48,517[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:49,641[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:50,763[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:51,887[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:53,026[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:54,180[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:55,303[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:56,411[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:57,535[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:58,657[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:00:59,780[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:00,904[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:02,026[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:03,151[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:04,273[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:05,397[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:06,536[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:07,658[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:08,782[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:09,904[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:11,013[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:12,135[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:13,259[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:14,367[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:15,490[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:16,628[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:17,752[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:18,891[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:20,013[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:21,137[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:22,260[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:23,384[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:24,506[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:25,630[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:26,737[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:27,861[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:28,983[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:30,092[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:31,198[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:32,306[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:33,430[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:34,552[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:35,691[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:36,831[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:37,953[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:39,076[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:40,216[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:41,355[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:41,713[458] received cmd: SITE_SURVEY
+2018-09-29 20:01:41,713[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 20:01:41,713[574] send cmd to ExeCmdThread: cmd:SITE_SURVEY, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 20:01:42,072[211] cmd: SITE_SURVEY, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 20:01:42,072[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 site_survey.sh mon0 10
+2018-09-29 20:01:42,463[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:43,585[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:44,709[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:45,832[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:46,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:48,094[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:49,217[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:50,341[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:51,463[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:52,586[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:53,726[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:54,848[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:55,971[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:57,111[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:58,250[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:01:59,388[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:00,528[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:01,665[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:02,805[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:03,944[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:05,036[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:06,158[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:06,891[213] exec result: True,  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: E0:B9:E5:DE:ED:E7
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 10:13:31:6B:C6:5F
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=66/70  Signal level=-44 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: 12:13:31:6B:C6:60
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: E2:B9:E5:DE:ED:EF
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 12:13:31:6B:C6:67
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 12:13:31:6B:C6:68
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 15 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 16 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 17 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+, 
+2018-09-29 20:02:07,173[610] CMD_TYPE: SITE_SURVEY, success: True, stdout:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: E0:B9:E5:DE:ED:E7
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 10:13:31:6B:C6:5F
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=66/70  Signal level=-44 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: 12:13:31:6B:C6:60
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: E2:B9:E5:DE:ED:EF
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 12:13:31:6B:C6:67
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 12:13:31:6B:C6:68
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 15 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 16 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 17 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+, stderr: 
+2018-09-29 20:02:07,173[651] got site survey result:  
+ SSID 01 - Address: F8:18:97:1F:F5:CE
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"YeonHo_ATT_24G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 02 - Address: 9C:3D:CF:5B:B7:8A
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=48/70  Signal level=-62 dBm  
+           ESSID:"NTGR_VMB_1502787675"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 03 - Address: F8:32:E4:51:CB:28
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=42/70  Signal level=-68 dBm  
+           ESSID:"ASUS"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 04 - Address: F8:2D:C0:CD:F0:C0
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=24/70  Signal level=-86 dBm  
+           ESSID:"ATTfebkzqs"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 05 - Address: F8:18:97:1F:F5:D6
+           Channel:136
+           Frequency:5.68 GHz
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"YeonHo_ATT_5G"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 06 - Address: 50:64:2B:8D:28:48
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ASUS_plus"
+           IE: WPA Version 1
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 07 - Address: 58:7A:62:30:62:AF
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=28/70  Signal level=-82 dBm  
+           ESSID:""
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 08 - Address: E0:B9:E5:DE:ED:E7
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 09 - Address: 10:13:31:6B:C6:5F
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=66/70  Signal level=-44 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 10 - Address: 12:13:31:6B:C6:60
+           Channel:1
+           Frequency:2.412 GHz (Channel 1)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 11 - Address: E2:B9:E5:DE:ED:EF
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-36 dBm  
+           ESSID:"Verizon_SmartHub"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 12 - Address: 12:13:31:6B:C6:67
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Picasso"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 13 - Address: 12:13:31:6B:C6:68
+           Channel:44
+           Frequency:5.22 GHz (Channel 44)
+           Quality=70/70  Signal level=-34 dBm  
+           ESSID:"Verizon-MBHA10-C65F-guest"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 14 - Address: C0:56:27:1A:5D:EC
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=32/70  Signal level=-78 dBm  
+           ESSID:"Roosevelt"
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 15 - Address: 4A:D9:E7:61:18:13
+           Channel:6
+           Frequency:2.437 GHz (Channel 6)
+           Quality=34/70  Signal level=-76 dBm  
+           ESSID:"SIDDIQUI"
+           IE: IEEE 802.11i/WPA2 Version 1
+           IE: WPA Version 1
+ 
+ SSID 16 - Address: 4A:D9:E7:0B:35:A4
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=38/70  Signal level=-72 dBm  
+           ESSID:"Aguilar "
+           IE: IEEE 802.11i/WPA2 Version 1
+ 
+ SSID 17 - Address: A0:63:91:78:DF:4A
+           Channel:11
+           Frequency:2.462 GHz (Channel 11)
+           Quality=26/70  Signal level=-84 dBm  
+           ESSID:"ngHub_319458NJ03998"
+           IE: IEEE 802.11i/WPA2 Version 1
+2018-09-29 20:02:07,173[458] received cmd: MONITOR_MODE
+2018-09-29 20:02:07,173[475] Chaning WiFi channel to 1
+2018-09-29 20:02:07,173[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 20:02:07,173[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:02:07,298[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:07,905[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 20:02:07,905[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 1
+2018-09-29 20:02:08,187[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:02:08,421[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:09,217[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:02:09,543[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:10,246[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:02:10,667[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:10,776[213] exec result: True, , 
+2018-09-29 20:02:11,276[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 20:02:11,805[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:12,944[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:14,068[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:15,160[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:16,299[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:17,421[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:18,561[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:19,730[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:20,869[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:22,009[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:23,131[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:24,255[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:25,394[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:26,502[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:27,625[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:28,747[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:29,855[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:30,979[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:32,101[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:33,194[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:34,316[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:35,440[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:36,563[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:37,687[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:38,809[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:39,933[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:41,055[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:42,194[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:43,334[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:44,457[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:45,579[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:46,719[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:47,842[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:48,980[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:50,104[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:51,243[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:52,365[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:53,520[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:54,644[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:55,766[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:56,890[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:58,013[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:02:59,137[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:00,243[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:01,351[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:02,460[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:03,566[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:04,690[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:05,813[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:06,951[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:08,091[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:09,230[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:10,352[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:11,476[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:12,615[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:13,737[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:14,861[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:15,984[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:17,124[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:18,278[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:19,385[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:20,509[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:21,631[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:22,740[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:23,846[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:24,970[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:26,078[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:27,186[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:28,309[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:29,431[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:30,555[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:31,677[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:32,786[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:33,908[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:35,016[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:36,124[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:37,232[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:38,339[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:39,463[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:40,569[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:41,709[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:42,816[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:43,940[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:45,078[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:46,201[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:47,341[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:48,480[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:49,618[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:50,726[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:51,865[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:53,019[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:54,142[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:55,280[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:56,420[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:57,575[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:58,713[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:03:59,836[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:00,960[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:02,082[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:03,206[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:04,328[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:05,453[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:06,529[458] received cmd: MONITOR_MODE
+2018-09-29 20:04:06,529[475] Chaning WiFi channel to 44
+2018-09-29 20:04:06,529[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 44
+2018-09-29 20:04:06,575[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:07,403[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 44
+2018-09-29 20:04:07,403[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 44
+2018-09-29 20:04:07,434[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:07,683[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:08,463[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:08,806[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:09,493[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:09,930[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:10,523[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:10,523[213] exec result: True, , 
+2018-09-29 20:04:11,036[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:11,552[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 20:04:12,161[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:13,111[458] received cmd: START_WIRESHARK
+2018-09-29 20:04:13,111[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 20:04:13,111[524] filter option: , filter expression: 
+2018-09-29 20:04:13,111[574] send cmd to ExeCmdThread: cmd:START_WIRESHARK, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 20:04:13,283[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:13,565[211] cmd: START_WIRESHARK, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 20:04:13,565[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 "tcpdump -i mon0 -U -w - 2> /dev/null"| ("C:\Program Files\Wireshark\Wireshark.exe"   "-k" "-i" "-")
+2018-09-29 20:04:14,391[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:14,469[183] Wireshark running status changed: True
+2018-09-29 20:04:14,641[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: True
+2018-09-29 20:04:15,483[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:16,591[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:17,683[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:18,775[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:19,914[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:21,006[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:22,112[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:23,236[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:24,359[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:25,483[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:26,591[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:27,697[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:28,805[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:29,180[117] execute_cmd failed. stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 20:04:29,180[213] exec result: False, , Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 20:04:29,928[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:30,023[610] CMD_TYPE: START_WIRESHARK, success: False, stdout: , stderr: Unable to write to standard output: The pipe has been ended.
+
+2018-09-29 20:04:30,053[183] Wireshark running status changed: False
+2018-09-29 20:04:31,052[582] status msg - MSG_TYPE: IS_WIRESHARK_RUNNING, STATUS: False
+2018-09-29 20:04:31,068[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:32,190[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:33,329[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:34,469[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:35,575[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:36,698[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:37,822[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:38,960[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:40,085[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:41,223[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:41,566[458] received cmd: MONITOR_MODE
+2018-09-29 20:04:41,566[475] Chaning WiFi channel to 14
+2018-09-29 20:04:41,566[574] send cmd to ExeCmdThread: cmd:MONITOR_MODE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 20:04:42,331[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:42,346[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:42,361[211] cmd: MONITOR_MODE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 20:04:42,361[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1 monitor_mode.sh mon0 14
+2018-09-29 20:04:43,361[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:43,470[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:44,390[698] device not ready - conn: True, wifi_info: True, freq set: False
+2018-09-29 20:04:44,592[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:45,279[213] exec result: True, , 
+2018-09-29 20:04:45,420[610] CMD_TYPE: MONITOR_MODE, success: True, stdout: , stderr: 
+2018-09-29 20:04:45,716[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:46,838[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:47,963[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:49,085[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:50,240[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:51,332[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:52,470[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:53,609[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:54,717[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:55,841[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:56,963[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:58,086[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:04:59,210[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:00,332[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:01,457[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:02,611[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:03,719[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:04,825[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:05,948[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:07,072[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:08,243[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:09,365[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:10,489[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:10,973[458] received cmd: STOP_DEVICE
+2018-09-29 20:05:10,973[487] device status - Conn: True, WiFi: True, Freq: True
+2018-09-29 20:05:11,628[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:11,753[574] send cmd to ExeCmdThread: cmd:STOP_DEVICE, mapping_cmd:C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 20:05:12,673[211] cmd: STOP_DEVICE, mapping_cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 20:05:12,673[110] got cmd: C:\Users\Cisco\AppData\Local\Temp\_MEI77~1\resources\plink.exe -ssh -pw openwrt123 root@192.168.8.1  shutdown.sh
+2018-09-29 20:05:12,750[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:13,842[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:14,950[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:15,091[213] exec result: True, , 
+2018-09-29 20:05:15,246[610] CMD_TYPE: STOP_DEVICE, success: True, stdout: , stderr: 
+2018-09-29 20:05:16,058[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:18,148[129] ping failed
+2018-09-29 20:05:18,148[136] Device not connected
+2018-09-29 20:05:18,148[167] Connection status changed: False
+2018-09-29 20:05:18,335[582] status msg - MSG_TYPE: IS_DEVICE_CONNECTED, STATUS: False
+2018-09-29 20:05:18,335[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 20:05:18,335[733] Open-Pcap shutdown successful!!!
+2018-09-29 20:05:19,200[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:21,140[129] ping failed
+2018-09-29 20:05:21,140[136] Device not connected
+2018-09-29 20:05:22,200[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:22,418[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 20:05:23,448[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 20:05:24,151[129] ping failed
+2018-09-29 20:05:24,151[136] Device not connected
+2018-09-29 20:05:24,463[698] device not ready - conn: False, wifi_info: False, freq set: False
+2018-09-29 20:05:25,210[110] got cmd: ping -n 1 -w 2000 192.168.8.1
+2018-09-29 20:05:25,351[190] StatusCheckThread stop_request set
+2018-09-29 20:05:27,177[129] ping failed
+2018-09-29 20:05:27,177[136] Device not connected
+2018-09-29 20:05:28,237[219] ExecCmdThread stop_request set

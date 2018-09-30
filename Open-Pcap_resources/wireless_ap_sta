@@ -1,0 +1,33 @@
+
+config wifi-device 'radio0'
+	option type 'mac80211'
+	option path 'platform/ar933x_wmac'
+	option htmode 'HT20'
+	option txpower '18'
+	option hwmode '11g'
+	option channel '1'
+
+config wifi-iface
+	option device 'radio0'
+	option network 'lan'
+	option mode 'ap'
+	option encryption 'psk-mixed'
+	option ifname 'wlan0'
+	option wds '1'
+	option ssid 'WiFi-Sniffer'
+	option key 'openwrt123'
+	option disabled '0'
+
+config wifi-iface 'sta'
+	option device 'radio0'
+	option network 'wwan'
+	option mode 'sta'
+	option ifname 'wlan-sta'
+	option ssid 'YeonHo_ATT_24G'
+	option gl_bssid 'F8:18:97:1F:F5:CE'
+	option channel '1'
+	option bssid 'F8:18:97:1F:F5:CE'
+	option encryption 'psk2'
+	option key 'YeonSung'
+	option disabled '0'
+

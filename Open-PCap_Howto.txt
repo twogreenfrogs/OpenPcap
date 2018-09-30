@@ -1,0 +1,35 @@
+Windows standalone 64bit Executable program, Open-Pcap.exe, is in dist folder.
+You can move it to Desktop for example and execute without any dependency.
+It is developed with Python/Tkinter and src is OpenPcapGUI.py in this folder.
+
+Below is how to use this program with OPi-PCap device.
+
+1. Plug Open-Pcap dongle in USB port. It will ask to run driver_installer program
+   If it doesn't, go to File Browser > RTL_UL folder and run RTK_NIC_DRIVER_INTALLER.sfx.exe manually
+   (For MAC OSX, and Windows, it will automatically come up as USB-Ethernet adapter)
+
+2. Network Connections show Open-Pcap is configured as Realtek USB network adapter
+
+3. Start OPi-Pcap program
+   Wait until Status shows "Device Ready"
+
+3. If you don't know target AP's channel, start site Survey.
+   It runs for 5s and shows all APs in the area.
+
+4. Now you know target AP's channel, set channel to same as target AP
+   When you select channel, Open-PCap automatically configures Channel.
+
+5. Click Start Wireshark
+   Once you're done, you can stop Wireshark from Wireshark itself or from OPi-PCap.
+   When Wireshark is running, "Start" button becomes "Stop" button.
+
+6. (Optional) You can apply filter(AP MAC address) to reduce capture traffic.
+   Without filter, Open-PCap will capture all traffic.
+
+7. Always shutdown OPi-Pcap gracefully to pretect file system.
+
+For any questions, please contact inzoolee@hotmail.com
+
+ps)
+making binary
+pyinstaller --onefile OpenPcap.spec to generate binary
