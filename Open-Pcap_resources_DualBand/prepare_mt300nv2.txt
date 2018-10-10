@@ -1,0 +1,20 @@
+1. load lede-mt300n-v2-2.271.bin and factory-reset
+
+2. install necessary packages
+opkg update
+opkg install bash kmod-rt2800-lib kmod-rt2800-usb kmod-rt2x00-lib kmod-rt2x00-usb
+
+3. move/scp files to appropriate folder in mt300nv2
+# scp *.sh to /root/
+# scp wireless* to /etc/config/
+# scp done to /etc/init.d
+
+4. configure mt300nv2
+cd; chmod 755 ./*.sh
+ln -s /root/monitor_mode.sh /usr/bin/monitor_mode.sh
+ln -s /root/shutdown.sh  /usr/bin/shutdown.sh 
+ln -s /root/site_survey.sh  /usr/bin/site_survey.sh
+ln -s /root/wifi_info.sh  /usr/bin/wifi_info.sh
+
+# 'iw phy' for internal wifi interfaces
+# opkg install libnl libnl-tiny kmod-cfg80211 kmod-lib80211 kmod-mac80211 kmod-mac80211-hwsim bash
