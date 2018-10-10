@@ -2,7 +2,7 @@
 
 2. install necessary packages
 opkg update
-opkg install bash kmod-rt2800-lib kmod-rt2800-usb kmod-rt2x00-lib kmod-rt2x00-usb
+opkg install bash tcpdump kmod-rt2800-lib kmod-rt2800-usb kmod-rt2x00-lib kmod-rt2x00-usb
 
 3. move/scp files to appropriate folder in mt300nv2
 # scp *.sh to /root/
